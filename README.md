@@ -66,19 +66,50 @@ Four-bit “Up” Counter
 
 
 ### PROGRAM 
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
+## code:
 
-module counter(clk,A);
-input clk;
-output reg[0:3]A;
-always@(posedge clk)
-begin
-A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
-A[1]=(((A[2])&(A[3]))^A[1]);
-A[2]=((A[3])^A[2]);
-A[3]=1^A[3];
-end
-endmodule
+up counter:
+
+![UPCOUNTER CODE](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/3e63ce8f-69e7-40bd-b389-c2c404855159)
+
+down counter:
+
+![DOWNCOUNTER CODE](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/a43f53c6-1fd2-4a43-8067-2da79f5c1e29)
+
+
+### RTL LOGIC:
+
+up counter:
+
+![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/0339166f-0c35-49c6-8678-30d8634ab97a)
+
+down counter:
+
+c![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/2588d57b-4223-48ae-81a0-624b1a3d0ff0)
+
+
+
+### TIMING DIGRAMS FOR COUNTER  
+
+up counter:
+
+![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/4e471b88-15a8-494a-861c-de024255fc2a)
+
+
+down counter:
+
+![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/a72c6496-153a-4e9e-9bee-424542f716ac)
+
+
+### TRUTH TABLE 
+
+up counter:
+
+![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/bcda0798-59dc-406d-9298-c3b3e7c1f67e)
+
+down counter:
+
+![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/f81ed1e3-be66-4a87-a3ec-addd8b595d2f)
 
 
 ### RTL LOGIC UP COUNTER 
