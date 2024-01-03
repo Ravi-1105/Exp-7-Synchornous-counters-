@@ -111,15 +111,5 @@ down counter:
 
 ![image](https://github.com/Rxhith1205/Exp-7-Synchornous-counters-/assets/147473311/f81ed1e3-be66-4a87-a3ec-addd8b595d2f)
 
-
-### RTL LOGIC UP COUNTER 
-![image](https://github.com/Nijeesh-bit/Exp-7-Synchornous-counters-/assets/89188014/2083493c-2eec-4ade-ac68-22892f14a0cb)
-
-### TIMING DIGRAMS FOR UP COUNTER  
-<img width="790" alt="image" src="https://github.com/Nijeesh-bit/Exp-7-Synchornous-counters-/assets/89188014/972cc60c-b402-49c9-ac08-738ea2fbba02">
-
-### TRUTH TABLE FOR UP COUNTER
-<img width="287" alt="image" src="https://github.com/Nijeesh-bit/Exp-7-Synchornous-counters-/assets/89188014/c3819e0a-3ca1-498a-bbf3-fa0b70cad9ca">
-
 ### RESULTS 
 By this we have verified the truth table of 4-bit up-counter using verilog.
